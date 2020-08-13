@@ -35,8 +35,8 @@ public class BaseTest {
         options.addArguments("disable-popup-blocking");
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);
         driver = new ChromeDriver(capabilities);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        webDriverWait = new WebDriverWait(driver, 45, 150);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        webDriverWait = new WebDriverWait(driver, 50, 100);
         driver.manage().window().maximize();
         driver.get(baseUrl);
 

@@ -1,0 +1,15 @@
+Created by TESTINIUM on 8/13/2020
+
+This is a concept file with following syntax for each concept.
+#  Pruducts
+* "div[class='box product']" random text click and save
+* Write Products on cvs
+* "h1[id='product-name']" save text
+* Ürünün texti ile detay sayfasındaki ürünün textini karşılaştır
+* "input[id='quantity']" li elementin attribute'ünü kaydet
+* "button[id='addToCart']" click element
+* Detay sayfasındaki "input[class='quantity']" li elementin attribute'ünü kaydet
+* "button[class='increase']" click element
+* "button[class='increase']" click element
+* "div[class='total-price'] span" price write to cvs
+* "//span[text()='Alışverişi Tamamla']" li elemente xpath ile tıkla

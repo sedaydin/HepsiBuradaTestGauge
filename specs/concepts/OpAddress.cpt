@@ -1,0 +1,17 @@
+Created by TESTINIUM on 8/13/2020
+
+This is a concept file with following syntax for each concept.
+# Add Adress
+* "a[class='link-type-two']" click element
+* "input[id='first-name']" value "ev"  write
+* "input[id='last-name']" value "new adress"  write
+* "button[data-id='city']" click element
+* "//span[text()='İstanbul']" li elemente xpath ile tıkla
+* "button[data-id='town']" click element
+* "//span[text()='PENDİK']" li elemente xpath ile tıkla
+* "button[data-id='district']" click element
+* "//span[text()='KAYNARCA']" li elemente xpath ile tıkla
+* "textarea[id='address']" value "Pendik"  write
+* "input[id='address-name']" value "Ev"  write
+* "input[id='phone']" value "43508347593759"  write
+* "//span[text()='Adresi Kaydet']" li elemente xpath ile tıkla

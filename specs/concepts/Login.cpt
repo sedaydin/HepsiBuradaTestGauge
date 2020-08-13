@@ -1,0 +1,10 @@
+Created by TESTINIUM on 8/13/2020
+
+This is a concept file with following syntax for each concept.
+# Login Control
+* "span[class='OldMyAccount-2BwAt'] " come
+* "a[id='login']" click element
+* "input[id='txtUserName']" value "seda.aydin@testinium.com"  write
+* "input[id='txtPassword']" value "1234567.Sa"  write
+* "button[id='btnLogin']" click element
+* "span[class='OldMyAccount-2BwAt']" value "Hesabım" same  controll

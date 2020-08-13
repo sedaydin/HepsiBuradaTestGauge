@@ -1,0 +1,13 @@
+Specification Heading
+=====================
+Created by TESTINIUM on 8/13/2020
+
+This is an executable specification file which follows markdown syntax.
+Every heading in this file denotes a scenario. Every bulleted point denotes a step.
+     
+# Kategori seçme işlemleri
+* "li[class='MenuItems-1-U3X']" random click
+* Sayfadaki div değişikliği kontrol et sonuca göre element seç
+* "ol[class='show-all-brands scrollable-filter-container scroll-lock'] li" random click
+* "input[placeholder='En az']" value "10"  write
+* "div[class='range-contain-row right']" click element

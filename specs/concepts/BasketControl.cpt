@@ -1,0 +1,7 @@
+Created by TESTINIUM on 8/13/2020
+
+This is a concept file with following syntax for each concept.
+# Basket Controll
+* "a[class='OldMyAccount-WTOLC OldMyAccount-1kR4k']" click element
+* "h1[class='h1']" value "Testinium, sepetin şu an boş." same  controll
+* "a[class='logo-hepsiburada']" click element

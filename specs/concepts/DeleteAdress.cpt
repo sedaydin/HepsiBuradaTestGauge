@@ -1,9 +1,0 @@
-Created by TESTINIUM on 8/13/2020
-
-This is a concept file with following syntax for each concept.
-# Adres silme işlemi
-* "span[class='cart-copy']" come
-* "div[class='usersProcess'] ul li" click "1" element
-* "//div[text()='Adreslerim']" li elemente xpath ile tıkla
-* "a[class='btn-delete btn-text']" click element
-* "a[class='btn btn-md']" click element

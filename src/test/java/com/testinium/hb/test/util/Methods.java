@@ -18,25 +18,23 @@ public class Methods extends BaseTest {
 
     public WebElement findElement(String key) {
         try {
-            WebElement element = (new WebDriverWait(driver, 5, 300))
+            WebElement element = (new WebDriverWait(driver, 5, 100))
                     .until(ExpectedConditions.elementToBeClickable(By.cssSelector(key)));
             return element;
 
         } catch (Exception ex) {
-            Assert.fail("" + key + "'li element 10 saniye boyunca arandı fakat bulunamadı..!!!");
             return null;
         }
     }
 
     public List<WebElement> findElements(String key) {
         try {
-            WebDriverWait waitForFormLabel = new WebDriverWait(driver, 30);
+            WebDriverWait waitForFormLabel = new WebDriverWait(driver, 50);
             List<WebElement> elements = driver.findElements(By.cssSelector(key));
             waitForFormLabel.until(ExpectedConditions.visibilityOfAllElements(elements));
             return elements;
 
         } catch (Exception ex) {
-            Assert.fail("" + key + "'li element 10 saniye boyunca arandı fakat bulunamadı..!!!");
             return null;
         }
     }
@@ -44,22 +42,22 @@ public class Methods extends BaseTest {
     public void clictToElement(WebElement element) {
 
         scrollToElement(element);
-        waitByMilliSeconds(500);
+        waitByMilliSeconds(100);
         element.click();
     }
 
     public void sendKeysToElement(WebElement element, String text) {
         scrollToElement(element);
-        waitByMilliSeconds(500);
+        waitByMilliSeconds(100);
         element.sendKeys(text);
     }
 
     public String getTextElement(WebElement element) {
         scrollToElement(element);
-        waitByMilliSeconds(500);
+        waitByMilliSeconds(100);
         String elemaninTexti = "";
         elemaninTexti = element.getText();
-        System.out.println("Elemanın Text değeri: " + elemaninTexti);
+        System.out.println("Text değeri: " + elemaninTexti);
         return elemaninTexti;
     }
 
@@ -77,8 +75,8 @@ public class Methods extends BaseTest {
     }
 
     public void getTextControl(WebElement element, String key) {
-        Assert.assertEquals("Eleman girilen texti içermiyor..!!!", getTextElement(element), key);
-        System.out.println("Girilen değer ile Elementin texti uyuşuyor..");
+        Assert.assertEquals("Yok", getTextElement(element), key);
+        System.out.println("Değerler uyuşmuyor");
     }
 
     public int randomInt(String key) {
